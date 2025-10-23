@@ -1,10 +1,10 @@
 services:
   chatnio:
-    image: programzmh/chatnio:3.11.2
+    image: programzmh/chatnio:4.24.2
     container_name: ${CONTAINER_NAME}
     restart: always
     ports:
-      - "${PANEL_APP_PORT_HTTP}:8094"
+      - ${PANEL_APP_PORT_HTTP}:8094
     depends_on:
       mysql:
         condition: service_healthy
@@ -19,7 +19,7 @@ services:
       REDIS_PORT: 6379
       REDIS_PASSWORD: ${PANEL_REDIS_ROOT_PASSWORD}
       REDIS_DB: ${REDIS_DB}
-      SERVE_STATIC: "${SERVE_STATIC}"
+      SERVE_STATIC: ${SERVE_STATIC}
     volumes:
       - ./data/config:/config
       - ./data/logs:/logs
@@ -27,8 +27,7 @@ services:
     networks:
       - 1panel-network
     labels:
-      createdBy: "Apps"
-
+      createdBy: Apps
   mysql:
     image: mysql:latest
     container_name: ${CONTAINER_NAME}_mysql
@@ -40,38 +39,46 @@ services:
       MYSQL_PASSWORD: ${PANEL_DB_USER_PASSWORD}
       TZ: Asia/Shanghai
     expose:
-      - "3306"
+      - '3306'
     volumes:
       - ./data/mysql:/var/lib/mysql
     networks:
       - 1panel-network
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      test:
+        - CMD
+        - mysqladmin
+        - ping
+        - -h
+        - localhost
       interval: 10s
       timeout: 5s
       retries: 5
     labels:
-      createdBy: "Apps"
-
+      createdBy: Apps
   redis:
     image: redis:latest
     container_name: ${CONTAINER_NAME}_redis
     restart: always
     command: redis-server --requirepass ${PANEL_REDIS_ROOT_PASSWORD}
     expose:
-      - "6379"
+      - '6379'
     volumes:
       - ./data/redis:/data
     networks:
       - 1panel-network
     healthcheck:
-      test: ["CMD", "redis-cli", "-a", "${PANEL_REDIS_ROOT_PASSWORD}", "ping"]
+      test:
+        - CMD
+        - redis-cli
+        - -a
+        - ${PANEL_REDIS_ROOT_PASSWORD}
+        - ping
       interval: 10s
       timeout: 5s
       retries: 5
     labels:
-      createdBy: "Apps"
-
+      createdBy: Apps
 networks:
   1panel-network:
     external: true
