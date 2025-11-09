@@ -1,6 +1,6 @@
 services:
     minimax-free-api:
-        image: vinlic/minimax-free-api:latest
+        image: vuldocker/minimax-free-api:latest
         container_name: ${CONTAINER_NAME}
         ports:
             - ${PANEL_APP_PORT_HTTP}:8000
