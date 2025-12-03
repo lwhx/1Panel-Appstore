@@ -432,18 +432,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>9.2.8</kbd> • [官网链接](https://github.com/chaitin/SafeLine)
 
 </td>
-<td width="33%" align="center">
 
-<a href="./apps/netbox/README.md">
-<img src="./apps/netbox/logo.png" width="60" height="60" alt="NetBox">
-<br><b>NetBox</b>
-</a>
-
-🏢 开源数据中心和网络资源管理平台
-
-<kbd>latest</kbd> • [官网链接](https://netbox.dev/)
-
-</td>
 <td width="33%" align="center">
 
 <a href="./apps/kali-linux/README.md">
