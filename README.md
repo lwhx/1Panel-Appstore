@@ -445,6 +445,19 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 <kbd>latest</kbd> • [官网链接](https://www.kali.org/)
 
 </td>
+
+<td width="33%" align="center">
+
+<a href="./apps/portnote/README.md">
+<img src="./apps/portnote/logo.png" width="60" height="60" alt="PortNote">
+<br><b>PortNote</b>
+</a>
+
+🔌 轻量级服务器端口管理与可视化工具，支持多平台部署
+
+<kbd>1.2.0</kbd> • [官网链接](https://github.com/crocofied/PortNote)
+
+</td>
 </tr>
 </table>
 
@@ -609,6 +622,47 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 💬 下一代 AI 一站式解决方案，综合性 AI 服务管理平台
 
 <kbd>4.25.0</kbd> • [官网链接](https://chatnio.net)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/langflow/README.md">
+<img src="./apps/langflow/logo.png" width="60" height="60" alt="Langflow">
+<br><b>Langflow</b>
+</a>
+
+🔮 强大的AI应用构建平台，可视化设计AI驱动的工作流和代理
+
+<kbd>1.6.5</kbd> • [官网链接](https://langflow.org/)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/litellm/README.md">
+<img src="./apps/litellm/logo.png" width="60" height="60" alt="LiteLLM">
+<br><b>LiteLLM</b>
+</a>
+
+🔧 使用OpenAI格式统一调用所有LLM API，支持多种云服务商
+
+<kbd>latest</kbd> • [官网链接](https://github.com/BerriAI/litellm)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/n8n-zh/README.md">
+<img src="./apps/n8n-zh/logo.png" width="60" height="60" alt="n8n-zh">
+<br><b>n8n-zh</b>
+</a>
+
+🔄 n8n汉化版，具有原生AI能力的Fair-code工作流自动化平台
+
+<kbd>1.123.1</kbd> • [官网链接](https://n8n.io/)
 
 </td>
 </tr>
@@ -980,6 +1034,46 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="./apps/1panel-tools/README.md">
+<img src="./apps/1panel-tools/logo.png" width="60" height="60" alt="1Panel-Tools">
+<br><b>1Panel-Tools</b>
+</a>
+
+🔧 轻松将您的 Docker Compose 文件转换为 1Panel 应用商店格式
+
+<kbd>latest</kbd> • [官网链接](https://github.com/arch3rPro/1Panel-Tools)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/omnitools/README.md">
+<img src="./apps/omnitools/logo.png" width="60" height="60" alt="OmniTools">
+<br><b>OmniTools</b>
+</a>
+
+🛠️ 功能强大的日常任务网络工具，自托管无广告追踪
+
+<kbd>latest</kbd> • [官网链接](https://omnitools.app/)
+
+</td>
+<td width="33%" align="center">
+
+<a href="./apps/playwright/README.md">
+<img src="./apps/playwright/logo.png" width="60" height="60" alt="Playwright">
+<br><b>Playwright</b>
+</a>
+
+🎭 专业的 Web 应用自动化测试环境，支持多浏览器
+
+<kbd>6.6.7</kbd> • [官网链接](https://playwright.dev/)
+
+</td>
+</tr>
+</table>
 
 #### 🐳 容器管理
 
