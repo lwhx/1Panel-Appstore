@@ -137,7 +137,7 @@
 
 🚀 MiniMax大模型海螺AI逆向API【特长：超自然语音】
 
-<kbd>1.0.0</kbd> • [官网链接](https://github.com/xiaoY233/MiniMax-Free-API)
+<kbd>1.0.1</kbd> • [官网链接](https://github.com/xiaoY233/MiniMax-Free-API)
 
 </td>
 <td width="33%" align="center">
