@@ -1045,7 +1045,7 @@ AI驱动的开源代码知识库与文档协作平台，支持多模型、多数
 
 🔧 轻松将您的 Docker Compose 文件转换为 1Panel 应用商店格式
 
-<kbd>latest</kbd> • [官网链接](https://github.com/arch3rPro/1Panel-Tools)
+<kbd>0.3.0</kbd> • [官网链接](https://github.com/arch3rPro/1Panel-Tools)
 
 </td>
 <td width="33%" align="center">
